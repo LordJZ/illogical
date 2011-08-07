@@ -1,0 +1,15 @@
+# Project output
+Release/*
+*/Release/*
+Debug/*
+*/Debug/*
+
+# Visual Studio files
+ipch/*
+*/obj/*
+*.suo
+*.sdf
+*.opensdf
+
+# Misc files
+*.patch
