@@ -5,17 +5,17 @@ extern "C"
 {
     class A
     {
+        int m_i;
+
     public:
-        int operator!()
+        A()
         {
-            //printf("op! called\n");
-            return 1;
+            m_i = 0;
         }
 
         operator int()
         {
-            //printf("op int called\n");
-            return 1;
+            return m_i++ & 1;
         }
     };
 
